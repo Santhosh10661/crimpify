@@ -51,7 +51,7 @@ function Header() {
         <div className="collapse col-9 navbar-collapse " id="navbarNav">
           <ul className="navbar-nav d-flex justify-content-between ms-auto me-4 col-12 col-md-6 col-lg-5  text-center">
             <li className="nav-item text-capitalize h6 my-3">
-              <NavLink to="/" className="links p-1">
+              <NavLink to="/" className="links active p-1">
                 home
               </NavLink>
             </li>
