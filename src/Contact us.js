@@ -11,7 +11,7 @@ function ContactUs() {
     let result = listOfDays[currentday];
 
     if (result === "Sat" || result === "Sun") {
-      setWorkingHours(`${result} - Closed (Avaliable Only at Mon-Fri)`);
+      setWorkingHours(`${result} - Closed`);
     } else {
       setWorkingHours(`${result} 09:00 am – 05:00 pm`);
     }
@@ -53,7 +53,10 @@ function ContactUs() {
               </div>
               <div className="col text-center">
                 <h5>Today Working Hours</h5>
-                <span>{WorkingHours}</span>
+                <p className="m-0">{WorkingHours}</p>
+                <span>
+                  <small>(Avaliable Only at Mon-Fri)</small>
+                </span>
               </div>
             </div>
           </div>

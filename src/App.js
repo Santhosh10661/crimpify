@@ -11,10 +11,11 @@ import ContactUs from "./Contact us";
 function App() {
   const navigate = useNavigate();
 
-  // Redirect to the desired default route ("/content" in this case)
+  // Redirect to the desired default route ("/" in this case)
   useEffect(() => {
     navigate("/", { replace: true });
   }, []);
+
   return (
     <div className="App">
       <Header />

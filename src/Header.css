@@ -20,13 +20,12 @@ header {
 .links {
   text-decoration: none;
   color: #27374d;
-  /* transition: 0.3s ease */
 }
 
 .active {
   /* background-color: #27374d;
   color: #f1efef; */
-  border-bottom: 1px solid #27374d;
+  border-bottom: 2px solid #27374d;
   color: #27374d;
 }
 /* .navList {
