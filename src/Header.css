@@ -1,0 +1,34 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  /* background: #61677a; */
+  /* background: #8294c4; */
+  /* background: #f4f4f2; */
+  /* color: #f4f4f2; */
+  background: white;
+  color: #27374d;
+}
+.menuIcon {
+  width: 30px;
+  height: 30px;
+  border: none;
+  color: #27374d;
+  /* color: #8294c4; */
+  /* color: #f4f4f2; */
+}
+.links {
+  text-decoration: none;
+  color: #27374d;
+  /* transition: 0.3s ease */
+}
+
+.active {
+  /* background-color: #27374d;
+  color: #f1efef; */
+  border-bottom: 1px solid #27374d;
+  color: #27374d;
+}
+/* .navList {
+  position: relative;
+} */
