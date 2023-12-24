@@ -15,7 +15,7 @@ function ContentSecOne() {
         <div className="col-12 col-sm-6 d-flex flex-column align-items-start justify-content-center">
           <h1
             className=" col-8 fw-bolder text-uppercase"
-            style={{ fontSize: "48px" }}
+            style={{ fontSize: "40px" }}
           >
             We <br />
             make technology accessible!

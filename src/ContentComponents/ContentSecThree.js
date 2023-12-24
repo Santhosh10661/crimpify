@@ -66,10 +66,7 @@ function ContentSecThree() {
                       : "50px 10px 50px 10px",
                 }}
               >
-                <p
-                  className=" text-capitalize my-4 mx-3"
-                  style={{ fontWeight: "500" }}
-                >
+                <p className=" text-capitalize my-4 mx-3 conDes">
                   {content.describtion}
                 </p>
               </div>
