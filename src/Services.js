@@ -77,7 +77,7 @@ function Services() {
                     height: "fit-content",
                     // opacity: service.isdescribOpen ? "1" : "0.9",
                     overflow: "hidden",
-                    transition: "0.3s ease",
+                    transition: "0.3s ease-in-out",
                     background: "#27374d",
                   }}
                 >
