@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/crimpify/static/css/main.9e0da521.css",
-    "main.js": "/crimpify/static/js/main.963e926d.js",
+    "main.js": "/crimpify/static/js/main.8fcf2118.js",
     "static/media/introsystem.svg": "/crimpify/static/media/introsystem.bda57d2df1f92dd11ac5ea9727d421a6.svg",
     "static/media/undraw_bug_fixing_oc-7-a.svg": "/crimpify/static/media/undraw_bug_fixing_oc-7-a.624668c18f73fdd040e6b4b0fe506a03.svg",
     "static/media/undraw_engineering_team_a7n2.svg": "/crimpify/static/media/undraw_engineering_team_a7n2.bf5de37dae6460906da60568502ef269.svg",
@@ -12,10 +12,10 @@
     "static/media/ZOHO New.svg": "/crimpify/static/media/ZOHO New.cefe4da6b36683eb526bac95a6959b77.svg",
     "index.html": "/crimpify/index.html",
     "main.9e0da521.css.map": "/crimpify/static/css/main.9e0da521.css.map",
-    "main.963e926d.js.map": "/crimpify/static/js/main.963e926d.js.map"
+    "main.8fcf2118.js.map": "/crimpify/static/js/main.8fcf2118.js.map"
   },
   "entrypoints": [
     "static/css/main.9e0da521.css",
-    "static/js/main.963e926d.js"
+    "static/js/main.8fcf2118.js"
   ]
 }
