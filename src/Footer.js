@@ -3,10 +3,10 @@ import React from "react";
 function Footer() {
   return (
     <footer
-      className="container-fluid "
+      className="container-fluid mt-auto"
       style={{
-        position: "relative",
-        bottom: "0",
+        // position: "relative",
+        // bottom: "0",
         background: "#27374d",
         color: "#f1efef",
       }}

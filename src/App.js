@@ -17,7 +17,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App d-flex flex-column">
       <Header />
       <Routes>
         {/* Default route for the home page */}
