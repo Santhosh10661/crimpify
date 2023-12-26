@@ -71,9 +71,10 @@ function Services() {
                   }}
                 />
                 <article
-                  className="my-2 rounded"
+                  className="rounded"
                   style={{
                     maxHeight: service.isdescribOpen ? "2000px" : "0px",
+                    margin: service.isdescribOpen ? "8px 0px" : "0px",
                     height: "fit-content",
                     // opacity: service.isdescribOpen ? "1" : "0.9",
                     overflow: "hidden",
