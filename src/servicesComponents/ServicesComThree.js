@@ -51,7 +51,7 @@ function ServicesComThree() {
             return (
               <div
                 key={cardItems.id}
-                className="card col-12 col-sm-5 col-md-4 col-lg-3 p-0 my-1 m-sm-2 m-md-1 m-lg-2"
+                className="card col-11 col-sm-5 col-md-4 col-lg-3 p-0 my-1 m-sm-2 m-md-1 m-lg-2"
                 style={{
                   background: "#f4f4f2",
                   overflow: "hidden",
