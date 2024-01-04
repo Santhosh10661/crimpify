@@ -59,7 +59,7 @@ function Header() {
             }`}
             id="navbarNav"
           >
-            <ul className="navbar-nav d-flex justify-content-between ms-auto me-4 col-12 col-md-6 col-lg-5  text-center">
+            <ul className="navbar-nav d-flex justify-content-between ms-auto me-4 col-12 col-md-5 col-lg-4  text-center">
               <li className="nav-item text-capitalize h6 my-3">
                 <NavLink to="/" className="links p-1" onClick={closeNavbar}>
                   home
@@ -83,7 +83,7 @@ function Header() {
                   about
                 </NavLink>
               </li>
-              <li className="nav-item text-capitalize h6 my-3">
+              {/* <li className="nav-item text-capitalize h6 my-3">
                 <NavLink
                   to="/contact"
                   className="links p-1"
@@ -91,7 +91,7 @@ function Header() {
                 >
                   contact
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>

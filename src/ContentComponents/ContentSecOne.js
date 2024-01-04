@@ -26,7 +26,7 @@ function ContentSecOne() {
             </span>
             <p className="fs-4">Professional Technology Assistance</p>
             <button
-              className="text-capitalize btn p-2 col-6 buttonStyle"
+              className="text-capitalize btn p-2 col-7 buttonStyle"
               type="button"
               style={buttonStyle}
             >

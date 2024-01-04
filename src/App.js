@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import Services from "./Services";
 import About from "./About";
-import ContactUs from "./Contact us";
+// import ContactUs from "./Contact us";
 
 function App() {
   const navigate = useNavigate();
@@ -25,7 +25,7 @@ function App() {
         {/* Other routes */}
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<ContactUs />} />
+        {/* <Route path="/contact" element={<ContactUs />} /> */}
       </Routes>
       <Footer />
     </div>
