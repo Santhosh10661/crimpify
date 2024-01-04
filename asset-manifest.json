@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/crimpify/static/css/main.659a4600.css",
-    "main.js": "/crimpify/static/js/main.9f3dbd27.js",
+    "main.css": "/crimpify/static/css/main.58a80d77.css",
+    "main.js": "/crimpify/static/js/main.38534950.js",
     "static/media/introsystem.svg": "/crimpify/static/media/introsystem.bda57d2df1f92dd11ac5ea9727d421a6.svg",
     "static/media/undraw_bug_fixing_oc-7-a.svg": "/crimpify/static/media/undraw_bug_fixing_oc-7-a.624668c18f73fdd040e6b4b0fe506a03.svg",
+    "static/media/cloud services.svg": "/crimpify/static/media/cloud services.a6d0ff5697cacfce44aff53cf34bd576.svg",
+    "static/media/network management.svg": "/crimpify/static/media/network management.ade4ba82f0f21ecac718066723d27d29.svg",
+    "static/media/undraw_dev_productivity_re_fylf.svg": "/crimpify/static/media/undraw_dev_productivity_re_fylf.799693fa7fe4887e5fbe873e08fcd42b.svg",
     "static/media/undraw_engineering_team_a7n2.svg": "/crimpify/static/media/undraw_engineering_team_a7n2.bf5de37dae6460906da60568502ef269.svg",
     "static/media/undraw_next_tasks_re_5eyy.svg": "/crimpify/static/media/undraw_next_tasks_re_5eyy.8e69a493840d1654ac2da2394ae63f9a.svg",
+    "static/media/help desk.svg": "/crimpify/static/media/help desk.43600b1e66a88407665fe20b90daaf62.svg",
+    "static/media/wireless.svg": "/crimpify/static/media/wireless.1d4e98c35190a570eb8112bdee0d26ba.svg",
     "static/media/undraw_chat_bot_re_e2gj.svg": "/crimpify/static/media/undraw_chat_bot_re_e2gj.f9614db9b17923b292c9b9a5f906727c.svg",
     "static/media/server_down_s-4-lk.svg": "/crimpify/static/media/server_down_s-4-lk.5e08d1c8c6ab3d9610c198ead7d7ac24.svg",
+    "static/media/security services.svg": "/crimpify/static/media/security services.e89d44571225e45be13967a2f16f8ec7.svg",
     "static/media/undraw_undraw_selectoption_y9cm_mx7w.svg": "/crimpify/static/media/undraw_undraw_selectoption_y9cm_mx7w.667cfe1c585a4ef7cc64997bb083bd96.svg",
     "static/media/ZOHO New.svg": "/crimpify/static/media/ZOHO New.cefe4da6b36683eb526bac95a6959b77.svg",
     "index.html": "/crimpify/index.html",
-    "main.659a4600.css.map": "/crimpify/static/css/main.659a4600.css.map",
-    "main.9f3dbd27.js.map": "/crimpify/static/js/main.9f3dbd27.js.map"
+    "main.58a80d77.css.map": "/crimpify/static/css/main.58a80d77.css.map",
+    "main.38534950.js.map": "/crimpify/static/js/main.38534950.js.map"
   },
   "entrypoints": [
-    "static/css/main.659a4600.css",
-    "static/js/main.9f3dbd27.js"
+    "static/css/main.58a80d77.css",
+    "static/js/main.38534950.js"
   ]
 }
