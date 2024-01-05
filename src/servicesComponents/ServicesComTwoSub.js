@@ -14,10 +14,10 @@ function ServicesComTwoSub(props) {
         background: "#27374d",
       }}
     >
-      <div className="row justify-content-between align-items-center ">
-        <div className="col-12 col-sm-3 py-3">
+      <div className="row justify-content-center align-items-center ">
+        <div className="col-6 col-sm-4 col-lg-3 py-3">
           <div
-            className="shadow rounded-circle d-flex justify-content-center align-items-center"
+            className="col-12 shadow rounded-circle d-flex justify-content-center align-items-center"
             style={{
               aspectRatio: "1/1",
               background: service.id % 2 === 0 ? "#f4f4f2" : "#f1efef",
@@ -26,7 +26,10 @@ function ServicesComTwoSub(props) {
             <img src={service.image} alt="" className="col-8" />
           </div>
         </div>
-        <div className=" col text-center" style={{ color: "#f4f4f2" }}>
+        <div
+          className=" col-12 col-sm-8 col-lg-9 text-center"
+          style={{ color: "#f4f4f2" }}
+        >
           <p
             className="col m-3 text-center text-capitalize"
             style={{ fontWeight: "500" }}

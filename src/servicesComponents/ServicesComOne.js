@@ -19,7 +19,7 @@ function ServicesComOne() {
             >
               managed iT services
             </h3>
-            <p className="text-capitalize">
+            <p className="text-capitalize" style={{ fontWeight: "600" }}>
               Discover the power of seamless IT solutions on our Managed
               Services platform. Our dedicated team ensures peak performance
               through proactive monitoring and swift issue resolution. With a

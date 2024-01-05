@@ -46,9 +46,9 @@ function ContentSecThree() {
                     : "row flex-row py-3"
                 }
               >
-                <div className="col-12 col-sm-6 d-flex align-items-center justify-content-center ">
+                <div className="col-12 col-sm-4 d-flex align-items-center justify-content-center ">
                   <div
-                    className="col-8 col-sm-8 shadow rounded-circle d-flex align-items-center justify-content-center  "
+                    className="col-8 col-sm-10 shadow rounded-circle d-flex align-items-center justify-content-center  "
                     style={{
                       aspectRatio: "1/1",
                       background: content.id % 2 === 0 ? "#f4f4f2" : "#f1efef",
@@ -57,7 +57,7 @@ function ContentSecThree() {
                     <img src={content.image} alt="" className="col-6" />
                   </div>
                 </div>
-                <div className="col-12 col-sm-6 text-center p-3 d-flex flex-column justify-content-center">
+                <div className="col-12 col-sm-8 text-center p-3 d-flex flex-column justify-content-center">
                   <h1 className="text-capitalize">{content.title}</h1>
                   <div
                     className="text-center"

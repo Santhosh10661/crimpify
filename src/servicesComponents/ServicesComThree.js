@@ -51,7 +51,7 @@ function ServicesComThree() {
             return (
               <div
                 key={cardItems.id}
-                className="card col-11 col-sm-5 col-md-4 col-lg-3 p-0 my-1 m-sm-2 m-md-1 m-lg-2"
+                className="card col-10 col-sm-5 col-md-4 col-lg-3 p-0 my-2 m-sm-2 m-md-1 m-lg-2"
                 style={{
                   background: "#f4f4f2",
                   overflow: "hidden",
@@ -66,10 +66,13 @@ function ServicesComThree() {
                   className="card-body"
                   style={{ backgroundColor: "#27374d", color: "#f1efef" }}
                 >
-                  <h5 className="card-title text-capitalize">
+                  <h4 className="card-title text-capitalize">
                     {cardItems.title}
-                  </h5>
-                  <p className="card-text text-capitalize">
+                  </h4>
+                  <p
+                    className="card-text text-capitalize"
+                    style={{ fontWeight: "500" }}
+                  >
                     {cardItems.Describtion}
                   </p>
                 </div>
