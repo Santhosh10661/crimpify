@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import Services from "./Services";
 import About from "./About";
+import MessageForm from "./MessageForm";
 // import ContactUs from "./Contact us";
 
 function App() {
@@ -22,8 +23,8 @@ function App() {
 
   return (
     <div className="App d-flex flex-column">
-      {}
       <Header />
+      <MessageForm />
       <Routes>
         {/* Default route for the home page */}
         <Route path="/" element={<Content />} />

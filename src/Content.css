@@ -19,3 +19,7 @@ main {
     font-weight: 400;
   }
 }
+.MessageIcon {
+  width: 30px;
+  height: 30px;
+}
