@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoClose } from "react-icons/io5";
 import { TbMessages } from "react-icons/tb";
 
 function MessageForm() {
+  let [cusName, SetCusName] = useState("");
+  let [cusEmail, SetCusEmail] = useState("");
+  let [cusQuery, SetCusQuery] = useState("");
+
   let inputStyle = {
     outline: "none",
     border: "none",
@@ -83,6 +87,10 @@ function MessageForm() {
                   id="floatingInputValue"
                   placeholder="Name"
                   style={inputStyle}
+                  value={cusName}
+                  onChange={(e) => {
+                    SetCusName(e.target.value);
+                  }}
                 />
                 <label htmlFor="floatingInputValue">Name*</label>
               </div>
@@ -94,6 +102,10 @@ function MessageForm() {
                   id="floatingInputValue"
                   placeholder="****@***.com"
                   style={inputStyle}
+                  value={cusEmail}
+                  onChange={(e) => {
+                    SetCusEmail(e.target.value);
+                  }}
                 />
                 <label htmlFor="floatingInputValue">Email*</label>
               </div>
@@ -103,6 +115,10 @@ function MessageForm() {
                   tabIndex={1}
                   className="form-control cmdField mt-4"
                   placeholder="Leave a comment here"
+                  value={cusQuery}
+                  onChange={(e) => {
+                    SetCusQuery(e.target.value);
+                  }}
                   id="floatingTextarea"
                   style={{
                     outline: "none",
@@ -120,26 +136,9 @@ function MessageForm() {
                 ></textarea>
                 <label htmlFor="floatingTextarea">How Can We Help You?*</label>
               </div>
-              {/* <div className="form-floating">
-                <label htmlFor="floatingTextarea">How Can We Help You?*</label>
-
-                <textarea
-                  maxLength={500}
-                  id="floatingTextarea"
-                  className="form-control p-1 cmtField"
-                  placeholder="Leave a comment here"
-                  style={{
-                    outline: "none",
-                    border: "1px solid #27374d ",
-                    boxShadow: "none",
-                    height: "220px",
-                    fontWeight: "500",
-                    color: "#27374d",
-                    fontSize: "16px",
-                  }}
-                ></textarea>
-                <small>Maximam 500 Characters only</small>
-              </div> */}
+              <span style={{ fontSize: "12px" }}>
+                <small>Maximam 500 Characters only*</small>
+              </span>
             </div>
 
             <div className="modal-footer">
