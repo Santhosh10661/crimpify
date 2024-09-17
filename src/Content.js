@@ -5,10 +5,11 @@ import ContentSecTwo from "./ContentComponents/ContentSecTwo";
 import ContentSecThree from "./ContentComponents/ContentSecThree";
 import ContentPoints from "./ContentComponents/ContentPoints";
 
-function Content() {
+function Content(props) {
+  let { formShow, setFormShow } = props;
   return (
     <main>
-      <ContentSecOne />
+      <ContentSecOne formShow={formShow} setFormShow={setFormShow} />
       <ContentSecTwo />
       <ContentPoints />
       <ContentSecThree />

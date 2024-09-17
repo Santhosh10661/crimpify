@@ -1,6 +1,7 @@
 import React from "react";
 import introimg from "../svg/introsystem.svg";
 import { FaArrowRightLong } from "react-icons/fa6";
+
 function ContentSecOne() {
   let buttonStyle = {
     background: "#27374d",
@@ -28,6 +29,8 @@ function ContentSecOne() {
             <button
               className="text-capitalize btn p-2 col-7 buttonStyle"
               type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
               style={buttonStyle}
             >
               <span className="mx-1">get in touch</span>

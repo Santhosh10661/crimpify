@@ -12,11 +12,11 @@ import MessageForm from "./MessageForm";
 function App() {
   let [welcomeNotes, setWelcomeNotes] = useState(false);
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   // Redirect to the desired default route ("/" in this case)
   useEffect(() => {
-    navigate("/", { replace: true });
+    // navigate("/", { replace: true });
 
     setWelcomeNotes(true);
   }, []);

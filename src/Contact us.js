@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 import Gmap from "./map";
 
+
 function ContactUs() {
   let [WorkingHours, setWorkingHours] = useState();
   useEffect(() => {
@@ -20,6 +21,7 @@ function ContactUs() {
     <section className="container-fluid" style={{ background: "#f1efef" }}>
       <div className="container-xxl">
         <div className="conatiner">
+          
           <div className="row justify-content-center align-items-center">
             {/* <h1 className="text-center text-capitalize my-2">contact us</h1> */}
             <div
